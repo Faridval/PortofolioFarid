@@ -1,0 +1,13 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && yarn install && yarn build",
+    "install": "cd frontend && yarn install"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+}
+
