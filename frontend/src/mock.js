@@ -76,7 +76,7 @@ export const projects = [
       'Early symptom detection and health recommendations'
     ],
     githubUrl: 'https://github.com/muhammadfarid/teman-sehat',
-    liveUrl: 'https://teman-sehat.demo.com'
+    liveUrl: 'https://www.youtube.com/watch?v=2rdAKJ6biZI'
   },
   {
     id: 3,
