@@ -75,25 +75,25 @@ export const projects = [
       'JKN facilities reference system',
       'Early symptom detection and health recommendations'
     ],
-    githubUrl: 'https://github.com/muhammadfarid/teman-sehat',
+    githubUrl: 'https://github.com/Faridval/Teman-Sehat',
     liveUrl: 'https://www.youtube.com/watch?v=2rdAKJ6biZI'
   },
   {
-    id: 3,
-    title: 'Email Sorting & Smart Reply Agent',
-    description: 'AI-powered email assistant with intelligent categorization and automated reply generation',
-    thumbnail: 'https://images.unsplash.com/photo-1557200134-90327ee9fafa?w=800&q=80',
-    createdAt: 'November 2025',
-    technologies: ['Python', 'OpenRouter API', 'LLM', 'AI Agent', 'NLP'],
+  id: 3,
+  title: 'AI Background Remover Agent',
+  description: 'Web-based AI agent that automatically removes image backgrounds with a single click using deep learning models',
+  thumbnail: '/image/removebg.jpg',
+  createdAt: 'January 2026',
+  technologies: ['Python', 'Streamlit', 'rembg', 'AI Agent', 'Computer Vision'],
     features: [
-      'Automated email sorting into urgent, important, task, promo, and spam categories',
-      'Custom email_sort_and_reply tool for content analysis',
-      'Smart reply recommendations using LLM integration',
-      'Dynamic summary generation for email threads',
-      'Integration with OpenRouter API for AI processing'
+  'Built an AI-powered image upload system to remove backgrounds instantly',
+  'Designed and implemented an agentic workflow from user input to AI inference and final output',
+  'Applied pre-trained deep learning models to achieve high-quality background removal',
+  'Generated transparent PNG outputs with integrated download functionality',
+  'Developed a lightweight and responsive web interface using Streamlit',
     ],
-    githubUrl: 'https://github.com/muhammadfarid/email-agent',
-    liveUrl: 'https://demo-email-agent.com'
+    githubUrl: 'https://github.com/Faridval/AI-Agentic-Remove-BG',
+    liveUrl: 'https://ai-agentic-remove-bg-b9ix5wvcrghj5vqyjzwa74.streamlit.app/'
   },
   {
     id: 4,
@@ -101,7 +101,7 @@ export const projects = [
     description: 'Machine Learning project for healthcare fee classes prediction with 82% accuracy',
     thumbnail: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
     createdAt: 'November 2025',
-    technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-Learn', 'Machine Learning'],
+    technologies: ['Python', 'Streamlit', 'NumPy', 'Scikit-Learn', 'Machine Learning'],
     features: [
       'Processed and analyzed 94,000+ healthcare membership records from a national health insurance dataset',
       'Built and compared multiple models, including Logistic Regression and Random Forest Classifier',
@@ -109,7 +109,7 @@ export const projects = [
       'Evaluated models using accuracy, precision, recall, F1-score, and confusion matrix',
       'Trained a final production-ready model and validated it using unseen (new) data samples'
     ],
-    githubUrl: 'https://github.com/muhammadfarid/patient-cost-prediction',
-    liveUrl: 'https://colab.research.google.com/drive/1pTBjxPe9UOJxr0XpJI8h-P7yYdtr03_O?usp=sharing'
+    githubUrl: 'https://github.com/Faridval/Prediksi-Kelas-Iuran-BPJS',
+    liveUrl: 'https://prediksi-kelas-iuran-bpjs-cvztavmqjrnvk2nchmymxf.streamlit.app/'
   },
 ];

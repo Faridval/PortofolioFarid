@@ -10,7 +10,7 @@ const About = () => {
       label: 'Education',
       value: 'Universitas Pendidikan Indonesia',
     },
-    { icon: Trophy, label: 'GPA', value: '3.56' },
+    { icon: Trophy, label: 'GPA', value: '3.64' },
     { icon: Mail, label: 'Email', value: personalInfo.email },
   ];
 
