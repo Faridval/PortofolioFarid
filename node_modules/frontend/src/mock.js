@@ -44,8 +44,25 @@ export const skills = [
 ];
 
 export const projects = [
-  {
+    {
     id: 1,
+    title: 'Stuckie - Financial Simulation Game',
+    description: 'Stuckie is a Tycoon & Simulation game-based investment education app designed to address the low financial literacy among Gen-Z and Millennials.',
+    thumbnail: '/image/stuckie1.png',
+    createdAt: 'November - December 2025',
+    technologies: ['Next.js', 'Tailwind CSS', 'Zustand', 'Aseprite', 'Azure Open AI'],
+features: [
+  'Developed a web-based financial simulation game, Market & Asset Management Tycoon, using Next.js and React',
+  'Managed the game’s economic system and investment assets using Zustand for real-time stock prices and player balances',
+  'Integrated Microsoft Azure OpenAI Service and Azure AI Document Intelligence for AI chatbots and financial document data extraction',
+  'Designed a Swipe to Invest feature and a user-lifestyle-based income projection calculator',
+  'Built a futuristic retro-themed UI using Tailwind CSS and deployed the application using Azure Static Web Apps'
+],
+    githubUrl: 'https://github.com/FactSwift/Stuckie',
+    liveUrl: 'https://gray-hill-042b00700.7.azurestaticapps.net/'
+  },
+  {
+    id: 2,
     title: 'Smart Motor Monitoring System',
     description: 'Mechasense is a monitoring and predictive maintenance platform for AC motors that integrates IoT sensors, Machine Learning predictions, and Expert System diagnosis',
     thumbnail: '/image/mecasense.png',
@@ -62,7 +79,7 @@ export const projects = [
     liveUrl: 'https://mechasenses-tw2u.vercel.app/'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Teman Sehat - Health Chatbot',
     description: 'AI-based health chatbot for disease screening with expert system integration',
     thumbnail: '/image/temansehat.png',
@@ -79,7 +96,7 @@ export const projects = [
     liveUrl: 'https://www.youtube.com/watch?v=2rdAKJ6biZI'
   },
   {
-  id: 3,
+  id: 4,
   title: 'AI Background Remover Agent',
   description: 'Web-based AI agent that automatically removes image backgrounds with a single click using deep learning models',
   thumbnail: '/image/removebg.jpg',
@@ -96,7 +113,7 @@ export const projects = [
     liveUrl: 'https://ai-agentic-remove-bg-b9ix5wvcrghj5vqyjzwa74.streamlit.app/'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Predicting New Patient Fee Classes',
     description: 'Machine Learning project for healthcare fee classes prediction with 82% accuracy',
     thumbnail: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
