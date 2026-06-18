@@ -94,7 +94,7 @@ const Hero = () => {
                 className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-gray-900 transition-all duration-300"
                 size="lg"
               >
-                <a href="/CV Muhammad Farid(AI).pdf" download>
+                <a href="/CVMuhammadFarid.pdf" download>
                   <Download className="mr-2 h-5 w-5" />
                   Download CV
                 </a>

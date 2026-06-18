@@ -44,12 +44,29 @@ export const skills = [
 ];
 
 export const projects = [
-    {
+  {
     id: 1,
+    title: 'AI-Based Material Inspection Monitoring System',
+    description: 'AI-based material inspection monitoring system for detecting surface defects, recording inspection results, storing defect evidence, and visualizing quality metrics through a web dashboard.',
+    thumbnail: '/image/aibased.png',
+    createdAt: 'March - June 2026',
+    technologies: ['TensorFlow', 'OpenCV', 'MobileNetV2', 'Streamlit'],
+features: [
+  ' Developed an AI-Based Material Inspection Monitoring System for automated surface defect detection in manufacturing environments using Deep Learning',
+  'Built and trained a MobileNetV2-based image classification model using TensorFlow to classify material surfaces into GOOD and DEFECT categories',
+  'Integrated OpenCV for real-time image acquisition and automated defect inspection through webcam-based monitoring',
+  'Implemented inspection logging and defect evidence storage features using CSV-based data recording and automated image capture',
+  'Designed and deployed a web-based monitoring dashboard using Streamlit to visualize inspection results, defect rates, historical logs, and defect evidence'
+],
+    githubUrl: 'https://github.com/Faridval/AI_Material_Inspection',
+    liveUrl: 'https://ai-material-inspection-farid.streamlit.app/'
+  },
+    {
+    id: 2,
     title: 'Stuckie - Financial Simulation Game',
     description: 'Stuckie is a Tycoon & Simulation game-based investment education app designed to address the low financial literacy among Gen-Z and Millennials.',
     thumbnail: '/image/stuckie1.png',
-    createdAt: 'November - December 2025',
+    createdAt: 'April 2026',
     technologies: ['Next.js', 'Tailwind CSS', 'Zustand', 'Aseprite', 'Azure Open AI'],
 features: [
   'Developed a web-based financial simulation game, Market & Asset Management Tycoon, using Next.js and React',
@@ -62,7 +79,7 @@ features: [
     liveUrl: 'https://gray-hill-042b00700.7.azurestaticapps.net/'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Smart Motor Monitoring System',
     description: 'Mechasense is a monitoring and predictive maintenance platform for AC motors that integrates IoT sensors, Machine Learning predictions, and Expert System diagnosis',
     thumbnail: '/image/mecasense.png',
@@ -79,7 +96,7 @@ features: [
     liveUrl: 'https://mechasenses-tw2u.vercel.app/'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Teman Sehat - Health Chatbot',
     description: 'AI-based health chatbot for disease screening with expert system integration',
     thumbnail: '/image/temansehat.png',
@@ -96,7 +113,7 @@ features: [
     liveUrl: 'https://www.youtube.com/watch?v=2rdAKJ6biZI'
   },
   {
-  id: 4,
+  id: 5,
   title: 'AI Background Remover Agent',
   description: 'Web-based AI agent that automatically removes image backgrounds with a single click using deep learning models',
   thumbnail: '/image/removebg.jpg',
@@ -113,7 +130,7 @@ features: [
     liveUrl: 'https://ai-agentic-remove-bg-b9ix5wvcrghj5vqyjzwa74.streamlit.app/'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Predicting New Patient Fee Classes',
     description: 'Machine Learning project for healthcare fee classes prediction with 82% accuracy',
     thumbnail: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
